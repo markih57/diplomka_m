@@ -1,1 +1,1 @@
-# diplomka_m
+# gulp_pug_scss

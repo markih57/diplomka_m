@@ -1,0 +1,31 @@
+extends layout/layout
+
+block vars
+    - var pageTitle = 'Главная страница'
+    - var pageBodyClass = 'homepage'
+    - var pageHeaderClass = ''
+
+block content
+    header
+        .container 
+            .header__top 
+                a.header__logo("#") 
+                    img.header__img(src="./assets/imgs/log.svg" alt="logo")
+                nav.nav 
+                    ul.nav__list 
+                        li.nav__item 
+                            a.nav__link(href="#") Как это работает
+                        li.nav__item 
+                            a.nav__link(href="#") Купить скины
+                        li.nav__item 
+                            a.nav__link(href="#") Бонус
+                        li.nav__item 
+                            a.nav__link(href="#") FAQ
+                        li.nav__item 
+                            a.nav__link(href="#") Блог
+                        li.nav__item 
+                            a.nav__link(href="#") Партнерская программа
+                        li.nav__item 
+                            img(src="./assets/imgs/lang.svg", alt="ru")
+                       
+
